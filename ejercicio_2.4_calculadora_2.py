@@ -12,7 +12,7 @@
 import tkinter as tk
 
 ventana = tk.Tk()
-ventana.title('Calculadora')
+ventana.title('Calculadora 2')
 
 valor_1 = tk.DoubleVar()
 valor_2 = tk.DoubleVar()
