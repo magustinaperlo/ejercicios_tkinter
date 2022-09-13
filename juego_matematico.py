@@ -22,7 +22,6 @@
 # pierde ese juego). El tiempo en segundos puede ser también 
 # dependiendo de la dificultad.
 
-from cgitb import reset
 import tkinter as tk
 from random import randint
 
