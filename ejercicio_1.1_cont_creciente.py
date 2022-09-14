@@ -12,6 +12,8 @@ import tkinter as tk
 
 ventana = tk.Tk()
 ventana.title('ContCreciente')
+#podriamos configurar un tamaño para la ventana porque asi como está, el título de la misma se ve cortado por los botones 
+#ventana.geometry("300x100")
 
 contador = tk.IntVar()
 
