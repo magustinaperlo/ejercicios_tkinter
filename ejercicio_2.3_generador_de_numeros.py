@@ -20,6 +20,7 @@ numero_2 = tk.IntVar()
 numero_generado = tk.IntVar()
 
 def generar():
+    #este print debe ser una validacion personal entiendo que para ver que te traia el codigo,puedes omitirla del codigo
     print(numero_1.get(), 'asdasdas')
     if numero_1.get() <= numero_2.get():
         numero_generado.set(randint(numero_1.get(), numero_2.get()))
