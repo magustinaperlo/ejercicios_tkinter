@@ -16,6 +16,7 @@ import tkinter as tk
 
 ventana = tk.Tk()
 ventana.title('Factorial')
+#ventana.geometry("560x100")
 
 n = tk.IntVar(value=1)
 factorial = tk.IntVar(value=1)
